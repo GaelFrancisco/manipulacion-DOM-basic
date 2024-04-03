@@ -14,6 +14,14 @@ function sumarInputValues(event) {
     pResult.innerText = "Resultado: " + sumaInputs;
 }
 
+// form.addEventListener("mouseover", enviarFormulario)//fue prueba
+
+// function enviarFormulario(e){
+//     e.preventDefault();
+
+//     alert("virus")
+// }
+
 // console.log(input.value);
 
 // console.log({
@@ -24,10 +32,10 @@ function sumarInputValues(event) {
 //     input,
 // });
 
-// h1.innerHTML = 'GaelFco <br> Hola'; //convierte todo a codigo html
-// h1.innerText = 'GaelFco <br> Hola'; //convierte a codigo lo que es texto nada mas
+// h1.innerHTML = 'GaelFco <br> Hola'; //innerHTML manipula el html desde JS
+// h1.innerText = 'GaelFco <br> Hola'; //manipula el html pero tal cual esta escrito aqui, no lo convierverte en html al cien
 // //console.log(h1.getAttribute('pantalla')) //ayuda a leer los atributos que tengan nuestro elemento
-// //h1.setAttribute('class', 'rojo')
+// //h1.setAttribute('class', 'rojo')//modifica los atributos(nombre)
 
 // h1.classList.add('rojo'); //es mejor trabajar estas con clases
 // h1.classList.remove('verde');
